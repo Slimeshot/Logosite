@@ -1,0 +1,67 @@
+.table {
+  width: 100%;
+}
+
+.table__row {
+  display: flex;
+}
+.table__row:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+.table__row:first-child .table__number {
+  font-weight: 700;
+}
+.table__row:first-child .table__congue {
+  font-weight: 700;
+}
+.table__row:first-child .table__cras {
+  font-weight: 700;
+}
+.table__row:first-child .table__nisl {
+  color: #000;
+  font-weight: 700;
+}
+
+.table__number {
+  width: 40px;
+  padding: 10px 10px;
+  font-family: "Jost", sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.table__congue {
+  width: 38%;
+  padding: 10px 10px;
+  font-family: "Jost", sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.table__cras {
+  width: 46%;
+  padding: 10px 10px;
+  font-family: "Jost", sans-serif;
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.table__nisl {
+  width: 15%;
+  min-width: none;
+  padding: 10px 10px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #00abf7;
+  min-width: 70px;
+}
+
+/*# sourceMappingURL=table.css.map */

@@ -1,0 +1,207 @@
+@media (max-width: 1024px) {
+  .intro {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .intro__content {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .intro__text {
+    padding-right: 0;
+    margin-bottom: 30px;
+    width: 70%;
+  }
+
+  .intro__img {
+    padding-left: 0;
+    width: 70%;
+  }
+
+  .advantages__img {
+    min-width: 350px;
+  }
+  .advantages__info {
+    align-items: center;
+  }
+
+  .footer {
+    height: 700px;
+  }
+  .footer iframe {
+    height: 100%;
+  }
+
+  .footer__tittle {
+    font-size: 22px;
+  }
+
+  .footer__contacts {
+    font-size: 14px;
+  }
+
+  .footer__contacts-link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .header__burger {
+    position: relative;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
+    height: 27px;
+    transition: transform 0.2s linear;
+  }
+
+  .rotate {
+    transform: rotate(-90deg);
+  }
+
+  .line {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .body__menushowed {
+    overflow: hidden;
+  }
+
+  .header__line {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: -1000px;
+    left: 0;
+    background-color: #42bbf3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s linear;
+  }
+
+  .header__line-active {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navigation__menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__phone {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .navigation__list {
+    margin-bottom: 30px;
+  }
+
+  .navigation__link {
+    font-size: 32px;
+  }
+
+  .intro__title {
+    font-size: 26px;
+    margin-bottom: 15px;
+    line-height: 30px;
+  }
+
+  .intro__subtitletitle {
+    font-size: 16px;
+  }
+
+  .advantages__info {
+    flex-direction: column;
+  }
+
+  .advantages__img {
+    padding-right: 0;
+    order: 2;
+    width: 70%;
+    min-width: 190px;
+  }
+  .advantages__img img {
+    max-width: 100%;
+  }
+
+  .advantages__text {
+    padding-left: 0;
+    order: 1;
+    width: 70%;
+  }
+
+  .advantages__title {
+    margin-bottom: 25px;
+  }
+
+  .advantages__subtitle {
+    margin-bottom: 25px;
+  }
+
+  .table__number {
+    font-size: 14px;
+  }
+
+  .table__congue {
+    font-size: 14px;
+  }
+
+  .table__cras {
+    font-size: 14px;
+  }
+
+  .table__nisl {
+    font-size: 14px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .intro__text {
+    width: 95%;
+  }
+
+  .intro__img {
+    width: 90%;
+  }
+
+  .advantages__img {
+    width: 95%;
+  }
+
+  .advantages__text {
+    width: 95%;
+  }
+
+  .table__number {
+    font-size: 12px;
+  }
+
+  .table__congue {
+    font-size: 12px;
+  }
+
+  .table__cras {
+    font-size: 12px;
+  }
+
+  .table__nisl {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=adaptiv.css.map */

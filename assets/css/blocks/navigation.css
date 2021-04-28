@@ -1,0 +1,22 @@
+.navigation__menu {
+  display: flex;
+}
+
+.navigation__list {
+  margin: 0 7.5px;
+}
+.navigation__list:hover .navigation__link {
+  border-bottom: 2px solid #fff;
+}
+
+.navigation__link {
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 25px;
+  transition: border-bottom 0.1s ease-in-out;
+}
+
+/*# sourceMappingURL=navigation.css.map */
